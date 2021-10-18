@@ -1,0 +1,49 @@
+/* type styles  */
+
+/* HEADER */
+
+*{
+    font-family: interstate, sans-serif;
+    /* font-size: 18px; */
+}
+
+#header-div{
+    background-color: #b81117;
+    position: fixed;
+    z-index: 1;
+}
+#header-nav-div{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    padding: 25px 0px 20px 0px;
+    background-color: black;
+    color: white;
+}
+
+#header-logo{
+    width: 30%;
+    display:block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#main-nav-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* BODY */
+
+#body-div{
+    position: relative;
+    top: 180px;
+}
+
+#first-image{
+    width: 100%;
+}
+
+.thirds-image{
+    width: 10%;
+}

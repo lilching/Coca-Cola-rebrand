@@ -1,5 +1,15 @@
 /* type styles  */
+.heading{
+    font-size: 75px;
+    text-align: left;
+    font-weight: 600;
+    line-height:70pt;
+}
 
+.body-copy{
+    font-size: 20px;
+
+}
 /* HEADER */
 
 *{
@@ -37,13 +47,63 @@
 
 #body-div{
     position: relative;
-    top: 180px;
+    top: 170px;
+}
+
+.reg-margins{
+    margin: 0px 150px 0px 150px;
 }
 
 #first-image{
     width: 100%;
+    height:auto;
+    display: block;
+}
+
+#helping-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-body{
+    width: 100%;
+}
+
+#kid-image{
+    width: 100%;
+    height: auto;
 }
 
 .thirds-image{
-    width: 10%;
+    width: 100%;
+    display:block;
+    margin: auto;
 }
+
+/* #kid-image{
+    
+} */
+
+
+
+
+/* overlay from https://www.w3schools.com/howto/howto_css_image_overlay_title.asp
+.overlay {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    background: white;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #heading-image{
+    position: relative;
+    width: 100%;
+  } */

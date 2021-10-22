@@ -21,6 +21,7 @@
     background-color: #b81117;
     position: fixed;
     z-index: 1;
+    top: 0;
 }
 #header-nav-div{
     display: grid;
@@ -47,7 +48,7 @@
 
 #body-div{
     position: relative;
-    top: 170px;
+    top: 135px;
 }
 
 .reg-margins{
@@ -78,6 +79,34 @@
     width: 100%;
     display:block;
     margin: auto;
+}
+
+#first-section{
+    margin: 40px 0px 40px 0px;
+}
+
+#section-two{
+    background-color: #b81117;
+    padding: 20px 0px 20px 0px;
+}
+
+
+/* FOOTER */
+#footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    /* margin-top: 20px; */
+}
+
+
+#footer-image{
+    width: 100%;
+}
+
+#footer-info{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* #kid-image{

@@ -6,6 +6,10 @@
     line-height:70pt;
 }
 
+body {
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+  }
+
 .body-copy{
     font-size: 20px;
 }
@@ -31,7 +35,7 @@
     font-weight: 600;
     line-height:50pt;
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin-bottom: 20px;
     hyphens: none;
 }
 
@@ -58,7 +62,7 @@
 }
 
 .header-links{
-    text-decoration: #b81117;
+    color: white;
 }
 
 .header-links:hover{
@@ -127,16 +131,19 @@
 .learn-more{
     margin: auto;
     color:white;
+    display: block;
+    width: 100%;
+    text-align: center;
     /* not working */
 }
 
-.section-three{
-    margin: auto;
+#section-three{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #covid-picture{
-    margin: 20px 0px 20px 0px;
-    width: 100%;
+        width: 100%;
 }
 
 /* FOOTER */
@@ -147,6 +154,9 @@
     /* margin-top: 20px; */
 }
 
+.footer-link{
+    color: white;
+}
 
 #footer-image{
     width: 100%;

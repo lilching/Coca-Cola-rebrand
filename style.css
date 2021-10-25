@@ -30,10 +30,10 @@ body {
 }
 
 .half-heading{
-    font-size: 55px;
+    font-size: 45px;
     text-align: left;
     font-weight: 600;
-    line-height:50pt;
+    line-height:40pt;
     text-align: center;
     margin-bottom: 20px;
     hyphens: none;
@@ -66,8 +66,14 @@ body {
 }
 
 .header-links:hover{
+    color: #fff192;
+    text-decoration:none;
+}
+
+.header-links:active{
     color: #989898;
 }
+
 
 #header-logo{
     width: 30%;
@@ -100,8 +106,8 @@ body {
 }
 
 #helping-heading{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .intro-body{
@@ -111,6 +117,22 @@ body {
 #kid-image{
     width: 100%;
     height: auto;
+}
+
+.get-involved-button{
+    border-radius: 10px;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 20px;
+    display: block;
+    border:none;
+    padding: 10px 30px 10px 30px;
+    font-weight: 600;
+    background-color: #b81117;
+}
+
+.get-involved-button:hover{
+    background-color: #fff192;
 }
 
 .thirds-image{
@@ -125,20 +147,25 @@ body {
 
 #section-two{
     background-color: #b81117;
-    padding: 20px 0px 20px 0px;
+    padding:40px 0px 40px 0px;
 }
 
 .learn-more{
-    margin: auto;
     color:white;
-    display: block;
+    font-weight: 600;
+    /* display: block;
     width: 100%;
-    text-align: center;
-    /* not working */
+    text-align: center; */
 }
 
+.learn-more:hover{
+    color: #fff192;
+    text-decoration:none;
+}
+
+
 #section-three{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -146,9 +173,18 @@ body {
         width: 100%;
 }
 
+#stadium-picture{
+    width: 100%;
+}
+
+#section-four{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
 /* FOOTER */
 #footer{
-    padding: 20px;
+    padding: 40px;
     background-color: black;
     color: white;
     /* margin-top: 20px; */
@@ -168,8 +204,23 @@ body {
     /* not working also space on the right?*/
 }
 
+#copyrights{
+   padding-left: 20px; 
+   padding-top: 20px;
+}
 
 
+/* large tablet */
+@media (max-width: 1080px) {
+    .half-heading{
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .reg-margins{
+        margin: 0px 100px 0px 100px;
+    }
+}
 
 /* tablet  */
 @media (max-width: 720px) {
@@ -182,6 +233,11 @@ body {
         text-align: left;
         font-weight: 600;
         line-height:60pt;
+    }
+
+    .half-heading{
+        font-size: 35px;
+        line-height: 30px;
     }
 }
 
@@ -196,5 +252,10 @@ body {
         text-align: left;
         font-weight: 600;
         line-height:50pt;
+    }
+
+    .half-heading{
+        font-size: 25px;
+        line-height: 20px;
     }
 }

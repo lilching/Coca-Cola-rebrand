@@ -8,8 +8,34 @@
 
 .body-copy{
     font-size: 20px;
-
 }
+
+.thirds-heading{
+    font-size: 35px;
+    text-align: left;
+    font-weight: 600;
+    line-height:30pt;
+    text-align: center;
+    color: white;
+    margin: 15px 0px 15px 0px;
+    hyphens: none;
+}
+
+.body-copy-small{
+    color: white;
+}
+
+.half-heading{
+    font-size: 55px;
+    text-align: left;
+    font-weight: 600;
+    line-height:50pt;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    hyphens: none;
+}
+
+
 /* HEADER */
 
 *{
@@ -31,6 +57,14 @@
     color: white;
 }
 
+.header-links{
+    text-decoration: #b81117;
+}
+
+.header-links:hover{
+    color: #989898;
+}
+
 #header-logo{
     width: 30%;
     display:block;
@@ -48,7 +82,7 @@
 
 #body-div{
     position: relative;
-    top: 135px;
+    top: 110px;
 }
 
 .reg-margins{
@@ -90,6 +124,20 @@
     padding: 20px 0px 20px 0px;
 }
 
+.learn-more{
+    margin: auto;
+    color:white;
+    /* not working */
+}
+
+.section-three{
+    margin: auto;
+}
+
+#covid-picture{
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+}
 
 /* FOOTER */
 #footer{
@@ -106,33 +154,37 @@
 
 #footer-info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    /* not working also space on the right?*/
 }
 
-/* #kid-image{
-    
-} */
 
 
 
+/* tablet  */
+@media (max-width: 720px) {
+    .reg-margins{
+        margin: 0px 70px 0px 70px;
+    }
 
-/* overlay from https://www.w3schools.com/howto/howto_css_image_overlay_title.asp
-.overlay {
-    position: relative;
-    top: 0;
-    z-index: 1;
-    background: white;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    color: red;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-  }
+    .heading{
+        font-size: 65px;
+        text-align: left;
+        font-weight: 600;
+        line-height:60pt;
+    }
+}
 
-  #heading-image{
-    position: relative;
-    width: 100%;
-  } */
+/* phone screen */
+@media (max-width: 576px) {
+    .reg-margins{
+        margin: 0px 50px 0px 50px;
+    }
+
+    .heading{
+        font-size: 55px;
+        text-align: left;
+        font-weight: 600;
+        line-height:50pt;
+    }
+}

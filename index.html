@@ -15,13 +15,14 @@
         <div id = "header-div">
             <img id = "header-logo" src = "assets/logo-min.png" alt = "mag">
             <div id = "header-nav-div">
-                <div id = "main-nav-div">
-                    <a>OUR COMPANY</a>
-                    <a>BRANDS</a>
-                    <a>CAREERS</a>
-                    <a>NEWS</a>
-                    <a>INVESTORS</a>
-                </div>
+                <nav id = "main-nav-div">
+                    <!-- not working -->
+                    <a class = "header-links">OUR COMPANY</a>
+                    <a class = "header-links">BRANDS</a>
+                    <a class = "header-links">CAREERS</a>
+                    <a class = "header-links">NEWS</a>
+                    <a class = "header-links">INVESTORS</a>
+                </nav>
                 <div id = "icon-nav-div">
                     <i class="fas fa-search"></i>
                     <i class="fas fa-globe"></i>
@@ -51,17 +52,42 @@
                 <div class = "row reg-margins">
                     <div id = "left-image" class = "col-lg-4">
                         <img class = "thirds-image" src = "assets/cover-cropped1.png" alt = "image1">
+                        <div class = "thirds-text">
+                            <div class = "thirds-heading">CORE VALUES</div>
+                            <div class = "body-copy-small"> People are at the center of everything we do, from our employees to those who touch our business to the communities we call home.</div>
+                            <a class = "learn-more">Learn More...</a>
+                        </div>
                     </div>
                     <div id = "middle-image" class = "col-lg-4">
-                        
                         <img class = "thirds-image" src = "assets/cover-cropped2.png" alt = "image2">
+                        <div class = "thirds-text">
+                            <div class = "thirds-heading">THE COCA-COLA FOUNDATION</div>
+                            <div class = "body-copy-small">Since its inception in 1984, The Foundation has awarded more than $1 billion in grants to support sustainable community initiatives around the world.</div>
+                            <a class = "learn-more">Learn More...</a>
+                        </div>
                     </div>
                     <div id = "right-image" class = "col-lg-4">
-                        
                         <img class = "thirds-image" src = "assets/cover-cropped3.png" alt = "image3">
+                        <div class = "thirds-text">
+                            <div class = "thirds-heading">PARTNERSHIPS</div>
+                            <div class = "body-copy-small">We believe we must work together by forming meaningful partnerships with nonprofits and charitable organizations that create shared opportunities for communities and people around the world.</div>
+                            <a class = "learn-more">Learn More...</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div id = "section-three" class = "reg-margins row">
+                <div class = "col-lg-6">
+                    <img id = "covid-picture" src = "assets/covid.webp" alt = "covid picture">
+                </div>
+                <div class = "col-lg-6">
+                    <div class = "half-heading">CORONAVIRUS LOCAL ACTION</div>
+                    <div>As COVID-19 spread in 2020, we mobilized quickly to safeguard the health and well-being of our employees; maintain the continuity and safety of our beverage production and delivery operations; ensure resiliency of our supply chain (including supporting suppliers); 
+                        assist bottling partners and customers; and support communities.</div>
+                </div>
+            </div>
+                
+            <!-- FOOTER -->
             <div id = "footer" class = "row">
                 <div class = "col-lg-2">
                     <img id = "footer-image" src = "assets/company_footer-01.png" alt = "footer image">
